@@ -76,7 +76,7 @@ mkdir manifests
 
 helm template consul hashicorp/consul \
   --namespace vault \
-  --version 0.39.0 \
+  --version 1.1.0 \
   -f consul-values.yaml \
   > ./manifests/consul.yaml
 ```
