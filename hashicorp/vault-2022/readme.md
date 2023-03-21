@@ -125,7 +125,7 @@ Let's grab the manifests:
 ```
 helm template vault hashicorp/vault \
   --namespace vault \
-  --version 0.19.0 \
+  --version 0.23.0 \
   -f vault-values.yaml \
   > ./manifests/vault.yaml
 ```
